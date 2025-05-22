@@ -10,6 +10,9 @@ This PLC project demonstrates a basic Start/Stop motor circuit using ladder logi
 
 ## 🔧 Ladder Logic:
 
+### 📸 Resting State
+> This is the initial state of the logic. Neither the Start nor Stop buttons are pressed. The internal memory bit `B3:0/0` is OFF, and the motor output `O:2/0` is de-energized.
+
 ### 📸 Start Button Pressed
 > The Start button (`I:1/0`) has been pressed, initiating the motor control logic. The rung conditions are true, and the internal memory bit `B3:0/0` is energized via the latch logic.
 
